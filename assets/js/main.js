@@ -212,7 +212,6 @@
     (function clInit() {
 
         ssPreloader();
-        ssSearch();
         ssMenu();
         ssMasonryFolio();
         ssBricksAnimate();
