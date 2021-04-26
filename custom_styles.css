@@ -1,0 +1,20 @@
+body,
+button {
+    font-family: 'Estedad' !important;
+}
+
+ol,
+ul {
+    padding-right: 2rem;
+}
+
+pre,
+code {
+    direction: ltr !important;
+    text-align: left;
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5em;
+}
