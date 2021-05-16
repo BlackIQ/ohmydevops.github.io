@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bat به جای cat</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link href="https://v1.fontapi.ir/css/Estedad" rel="stylesheet">
+    <link href="../../custom_styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header><a href="/" style="text-decoration: none; color: var(--nc-tx-2);">یک سیستم‌ادمینِ دوچرخه‌سوار</a></header>
+    <h2>bat به جای cat</h2>
+    <p>
+        به عنوان یک مدیر سیستم یا به عنوان یک لینوکسی گاهی دوست داریم محتویات یک فایل رو با terminal ببینیم. cat یکی از
+        بهترین ابزارهای لینوکسی برای این کاره که میتونه از منابع مختلفی بخونه و روی standard output بنویسه و نمایش بده.
+        مثلا میتونیم بنویسیم:
+    </p>
+    <code>cat -n /etc/os-release</code> <br><br>
+    <p>
+        ولی cat ابزار خیلی ساده ای هست و اصطلاحا خیلی مرتب و ترتمیز خروجی بهمون نمیده. ولی یک ابزار باحال وجود داره به
+        اسم bat که خیلی خروجی مرتب شده تری میده بهمون. دربارش تو <a href="https://github.com/sharkdp/bat">گیتهابش</a>
+        بخونین. فلگ‌های مختلفی هم برای نحوه نمایش متن
+        داره که میتونید با زدن man bat ببینید توضیحاتشو. من این شکلی توی سیستمم نصبش کردم:
+    </p>
+    <code>sudo apt install bat</code> <br><br>
+    <p>و بدین‌شکل هم استفاده میکنم:</p>
+    <img src="/images/batcat.png">
+
+    <hr>
+
+    <footer>
+        نوشته شده در  سه شنبه ۷ آبان ۱۳۹۸ 
+    </footer>
+</body>
+
+</html>
