@@ -1,6 +1,10 @@
-body,
-button {
-    font-family: 'Estedad' !important;
+@font-face {
+    font-family: iransans;
+    src: url("font/iransans.ttf");
+}
+
+* {
+	font-family: iransans;
 }
 
 ol,
